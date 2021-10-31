@@ -1,0 +1,5 @@
+- id: check-file-name-pattern
+  name: check that file names match pattern
+  description: checks whether the file names match a given pattern
+  entry: check-file-name-pattern
+  language: python
