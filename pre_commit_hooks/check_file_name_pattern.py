@@ -12,8 +12,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument('filenames', nargs='*')
     parser.add_argument('--pattern', type=str, default='.*',
-        help='Expected file name pattern (regex)',
-    )
+                        help='Expected file name pattern (regex)')
     args = parser.parse_args(argv)
 
     retcode = 0
